@@ -1,0 +1,6 @@
+{
+      "Vortex": {
+        "api_url": "https://api.com/api?key=v-funuw&host={target}&port={port}&time={time}&method={method}",
+        "max_time": 600
+      }
+}

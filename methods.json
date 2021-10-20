@@ -1,0 +1,34 @@
+{
+  "home": {
+    "api_name": "home",
+    "max_time": "259200",
+    "type": "home",
+    "layer": "L4",
+    "vip": false,
+    "enabled": true
+  },
+  "drv": {
+    "api_name": "drv",
+    "max_time": "3600",
+    "type": "amp",
+    "layer": "L4",
+    "vip": false,
+    "enabled": true
+  },
+  "dns": {
+    "api_name": "dns",
+    "max_time": "3600",
+    "type": "amp",
+    "layer": "L4",
+    "vip": false,
+    "enabled": true
+  },
+  "cldap": {
+    "api_name": "cldap",
+    "max_time": "3600",
+    "type": "amp",
+    "layer": "L4",
+    "vip": false,
+    "enabled": true
+  }
+}
