@@ -210,6 +210,15 @@ async def help(ctx):
                                       f"\n {prefix}attack <method> <target> <port> <time>"
                                       f"\n {prefix}webping <domain> | ping website yes."
                                       f"\n {prefix}ping <ip> | ping ip address yes."
+                                      f"\n {prefix}ongoing | shows ongoing attack"
+                                      f"\n {prefix}stopattack | stops a ongoing attack"
+                                      f"\n {prefix}ban <@user> | bans user from using commands"
+                                      f"\n {prefix}unban | unbans user"
+                                      f"\n {prefix}edituser <@user> [maxtime 100] [vip true or false] | edits a user's plan"
+                                      f"\n {prefix}add <@user> | adds a user to the database"
+                                      f"\n {prefix}remove <@user> | removes a user to the database"
+                                      f"\n {prefix}list | shows list of users in the database"
+                                      f"\n {prefix}restart | retstarts the bot"
                                       f"\n {prefix}plan | shows your plan.", color=embed_color)
     await ctx.send(embed=embed)
 
